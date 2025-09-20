@@ -9,10 +9,6 @@ st.write("this application is about displaying product sales")
 
 name = st.text_input("Enter your name", "Type here ...")
 st.write("name")
-width = st.number_input("width")
-hight = st.number_input("hight")
-if st.button("calculate area"):
-    st.write(width * hight)
 
 col1, col2, col3 = st.columns(3)
 with col1:
